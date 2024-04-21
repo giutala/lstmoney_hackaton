@@ -1,0 +1,17 @@
+{
+  "age": 56,
+  "risk_exposure": 0.6,
+  "net_worth": 1000000,
+  "average_salary": 10000,
+  "goal": "retire early",
+  "gems": 21,
+  "profile": "advanced",
+  "name": "Kathleen",
+  "surname": "Shea",
+  "country": "Italy",
+  "completed_lectures": [
+    "Introduction to stocks",
+    "Introduction to ETFs",
+    "Introduction to taxes"
+  ]
+}

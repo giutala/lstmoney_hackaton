@@ -1,0 +1,25 @@
+{
+    "investments": [
+      {
+        "bond": "Stocks ETFs",
+        "amount": 150000,
+        "percentage": 37.5
+      },
+      {
+        "bond": "iBonds",
+        "amount": 100000,
+        "percentage": 25
+      },
+      {
+        "bond": "Government Bonds",
+        "amount": 75000,
+        "percentage": 18.75
+      },
+      {
+        "bond": "Corporate Bonds",
+        "amount": 75000,
+        "percentage": 18.75
+      }
+    ]
+  }
+  

@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from helpers import query_spendsis,query_finbro
 
 st.title("User case Demonstration")
+st.divider()
+st.subheader("User profile:")
 
 ###--- PRETTY PIE CHARTS
 def calculate_by_category(transactions, keyname):
@@ -63,12 +65,16 @@ p_inv = plt.gcf()
 p_inv.gca().add_artist(my_circle_inv)
 
 ###--- ML MAGIC
-
-
+st.divider()
+st.write("Let's test how good our Finbros really are.")
+st.write("This pie chart displays Kathleen expences.")
+st.write("We'll give our model the user profile and tis chart, see what they're capable of:")
 st.pyplot(fig_exp)
 
 if st.button('Interpret'):
     st.write(query_spendsis())
+    
+st.divider()
 
 st.pyplot(fig_inv)
 
