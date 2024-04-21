@@ -73,12 +73,13 @@ st.pyplot(fig_exp)
 
 if st.button('Interpret'):
     st.write(query_spendsis())
-    
+
 st.divider()
 
 st.pyplot(fig_inv)
 
 if st.button('Interpret this'):
     st.write(query_finbro())
+
 
 

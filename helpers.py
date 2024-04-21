@@ -66,3 +66,4 @@ def query_finbro(data=None, string_structure=None):
     new_output = response.choices[0].message.content
     return str(new_output)
 
+
