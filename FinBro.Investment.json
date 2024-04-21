@@ -1,0 +1,25 @@
+{
+    "investments": [
+      {
+        "bond": "Government Bonds",
+        "amount": 150000,
+        "percentage": 37.5
+      },
+      {
+        "bond": "Corporate Bonds",
+        "amount": 100000,
+        "percentage": 25
+      },
+      {
+        "bond": "Municipal Bonds",
+        "amount": 75000,
+        "percentage": 18.75
+      },
+      {
+        "bond": "High-Yield Bonds",
+        "amount": 75000,
+        "percentage": 18.75
+      }
+    ]
+  }
+  
